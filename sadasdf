@@ -1,0 +1,143 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("IchigoatHub", "Ocean")
+
+    --MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("Back/Front Flip", "Allows you flip!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/dwffcewsdcswcsw/main/dasds"))();
+    end)
+
+    MainSection:NewButton("Infinite-Yield", "Admin Commands!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/cdscdscs/main/ihateniggas"))();
+    end)
+    MainSection:NewButton("FE-Big-Head", "Big Head!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/sysGhost-aka-BiKode/BigHeadV2/main/BigHeadV2-r15"))();
+    end)
+
+    MainSection:NewButton("Ball", "Be A Ball!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/dassdsa/main/gsversdfv"))();
+    end)
+
+    MainSection:NewButton("AMONGUS", "Be A AMONGUS Vey SUS!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/sadedsaca/main/dsxcsdccds"))();
+    end)
+
+    MainSection:NewButton("SNAKE", "Be A Snake!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/oy8efh38wryfg/main/vfreewceawc"))();
+    end)
+
+    MainSection:NewButton("FE-VR", "Just A VR Script!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/EWDECWC/main/erfvfvfc"))();
+    end)
+
+    MainSection:NewButton("Giant-Hat", "Make Your Hat Giant!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/dsfcewcwdcsd/main/frfsfs"))();
+    end)
+
+    MainSection:NewButton("Invisible-Fling", "Fling Players!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/dssefwefw/main/sadasd"))();
+    end)
+
+    MainSection:NewButton("Titan", "Make Your Titan Prefix Is .", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mgamingpro/HomebrewAdmin/master/Main'),true))()
+    end)
+
+    MainSection:NewButton("Ink-Monster", "Ink Monster GUI!", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mustichigo/wdfwefcewcewcec/main/s'),true))()
+    end)
+
+    MainSection:NewButton("NPC-Controller", "Allows you to control NPC's R15 Only!", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/mustichigo/dwcwedcasdx/main/dassd3'),true))()
+    end)
+
+    MainSection:NewToggle("Flash-Human", "Go Very Fast And Jump High", function(state)
+        if state then
+            game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 120
+            game.Players.LocalPlayer.Character.Humanoid.JumpPower = 120
+        else
+            game.Players.LocalPlayers.Character.Humanoid.Walkspeed = 16
+            game.Players.LocalPlayers.Character.Humanoid.JumpPower = 50
+        end
+    end)
+
+
+    -- LOCAL PLAYER
+    local Player = Window:NewTab("Player")
+    local PlayerSection = Player:NewSection("Player")
+
+    PlayerSection:NewSlider("Walkspeed", "Speed!", 800, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+    end)
+
+    PlayerSection:NewSlider("JumpPower", "Jump Height!", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+    end)
+
+    PlayerSection:NewButton("RESET WalkSpeed/JumpPower", "Reset Your Speed And Jump Power To Default", function()
+        game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+    end)
+
+
+    -- OTHER
+    local Other = Window:NewTab("Other")
+    local OtherSection = Other:NewSection("Other")
+
+    OtherSection:NewButton("Chat Spoofer", "Lets you chat for people", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/ewdewdcscwec/main/dscscsdcsd"))();
+    end)
+
+    OtherSection:NewButton("Bypassed Fly", "Lets You Fly Like Bird!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Nicuse/RobloxScripts/main/BypassedFly.lua"))();
+
+        Fly(true)
+    end)
+
+
+    --GAMES
+    local Games = Window:NewTab("Games")
+    local GamesSection = Games:NewSection("Games")
+
+    GamesSection:NewButton("Squid-Game-Kill-All", "Allows you kill all in Squid Game Green Light Red Light!", function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/W0RLDC0RP/scripts/main/squid_game_kill_aura.lua'),true))()
+    end)
+
+    GamesSection:NewButton("Void-Hub-7-Supported-Games", " Supported Games: Arsenal Ninja Legends And 5 More!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/V-0ID/V-0ID/main/VoidHubV3"))();
+    end)
+
+    GamesSection:NewButton("Car-Crash", "Car Crash Simulator Game Only!", function()
+        loadstring(game:HttpGet('https://pastebin.com/raw/YwkKw09a'))()
+    end)
+
+    GamesSection:NewButton("Pet-Sim-X-JMES-Hub", "Best Pet Simulator X Script ever!", function()
+        loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jmesfo0/RobloxScripts/main/psx-jmes.lua"))()
+    end)
+
+    GamesSection:NewButton("Doors-Script", "Good Doors Script!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/mustichigo/dsd/main/sdaasd"))()
+    end)
+
+    GamesSection:NewButton("Doors-Entity-Spawner", "Summon entities in DOORS!", function()
+        loadstring(game:HttpGet"https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua")()
+    end)
+
+    GamesSection:NewButton("PLS-DONATE", "Pls Donate Good Script!", function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/CF-Trail/tzechco-PlsDonateAutofarmBackup/main/autofarm"))()
+    end)
+
+
+    --CREDITS
+    local Credits = Window:NewTab("Credits")
+    local CreditsSection = Credits:NewSection("Credits")
+
+    CreditsSection:NewLabel("Made By Ichigoat#8417")   
+
+    CreditsSection:NewLabel("Helper Annen#5588")    
+
+    CreditsSection:NewKeybind("Press P For Hide GUI!", "Hide GUI", Enum.KeyCode.P, function()
+        Library:ToggleUI()
+    end)
